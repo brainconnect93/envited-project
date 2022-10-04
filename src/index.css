@@ -127,6 +127,26 @@ background-clip: text;
   margin-top: 12px;
 }
 
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  width: 187px;
+  height: 60px;
+  left: calc(50% - 187px/2);
+  top: 616px;
+  background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+  border-radius: 10px;
+  margin: 10px auto;
+  color: #fff;
+  font-size: 20px;
+  width: 300px;
+  border: 1px solid #fff;
+}
+
 /* ==== LANDING PAGE STYLING ENDS ==== */
 
 /* ===== EVENT PAGE STYLING STARTS  ====  */
@@ -143,3 +163,5 @@ background-clip: text;
   display: flex;
   margin-bottom: 30px;
 }
+
+/* ===== EVENT PAGE STYLING ENDS  ====  */

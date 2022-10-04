@@ -61,8 +61,8 @@ const LandingPage = () => (
           </div>
         </div>
 
-        <GiPartyPopper size={30} style={{ color: 'orange' }} />
         <button type="submit" className="button">
+          <GiPartyPopper size={30} style={{ color: 'orange' }} />
           Create my event
         </button>
       </div>
