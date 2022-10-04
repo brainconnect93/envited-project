@@ -1,13 +1,145 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* ==== LANDING PAGE STYLING START ==== */
+
+.header {
+  font-size: 45px;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  color: #240d57;
+
+}
+
+span {
+  background: linear-gradient(90deg, #8456ec 24.2%, #e87bf8 120.46%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+  text-fill-color: transparent;
+}
+
+.title {
+  font-size: 25px;
+  text-align: center;
+  width: 100%;
+  margin-top: 12px;
+  margin-bottom: 40px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #4f4f4f;
+}
+
+.status-container {
+  border: 1px solid lightgray;
+  width: 80%;
+  margin: 25px 10%;
+  filter: drop-shadow(0px 0px 17.6435px rgba(0, 0, 0, 0.05));
+  border-radius: 13.2326px;
+}
+
+.img {
+  filter: drop-shadow(0px 0px 17.6435px rgba(0, 0, 0, 0.05));
+  border-top-left-radius: 13.2326px;
+  border-top-right-radius: 13.2326px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.detials-container {
+  margin-left: 25px;
+}
+
+.detials-container h2 {
+  color: #240d57;
+}
+
+.response {
+  display: flex;
+  margin-bottom: 45px;
+}
+
+.response h5 {
+  margin-right: 20px;
+  color: #240d57;
+}
+
+.response p {
+  margin-right: 20px;
+  color: #501fc1;
+}
+
+.invite-button {
+  border: 1px solid #501fc1;
+  background: linear-gradient(90deg, #8456ec 24.2%, #e87bf8 120.46%);
+  height: 30px;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+  width: 75px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.landing-holder {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.state {
+  margin: 0 25px;
+  line-height: 13px;
+  width: 100%;
+}
+
+.state p {
+  font-size: 13px;
+  width: 100%;
+}
+
+.state h5 {
+  font-size: 18px;
+  width: 100%;
+  color: #240d57;
+}
+
+.icon {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.icon1 {
+  margin-top: 12px;
+  margin-right: 10px;
+}
+
+.icon2 {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.icons {
+  margin-top: 12px;
+}
+
+/* ==== LANDING PAGE STYLING ENDS ==== */
+
+/* ===== EVENT PAGE STYLING STARTS  ====  */
+
+.events-container {
+  margin-left: 25px;
+}
+
+.events-container h2 {
+  color: #240d57;
+}
+
+.event-holder {
+  display: flex;
+  margin-bottom: 30px;
 }
