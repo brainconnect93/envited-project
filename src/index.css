@@ -13,15 +13,12 @@ body {
   text-align: center;
   margin-top: 30px;
   color: #240d57;
-
 }
 
 span {
   background: linear-gradient(90deg, #8456ec 24.2%, #e87bf8 120.46%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .title {
@@ -39,12 +36,12 @@ background-clip: text;
   border: 1px solid lightgray;
   width: 80%;
   margin: 25px 10%;
-  filter: drop-shadow(0px 0px 17.6435px rgba(0, 0, 0, 0.05));
+  filter: drop-shadow(0 0 17.6435px rgba(0, 0, 0, 0.05));
   border-radius: 13.2326px;
 }
 
 .img {
-  filter: drop-shadow(0px 0px 17.6435px rgba(0, 0, 0, 0.05));
+  filter: drop-shadow(0 0 17.6435px rgba(0, 0, 0, 0.05));
   border-top-left-radius: 13.2326px;
   border-top-right-radius: 13.2326px;
   width: 100%;
@@ -134,11 +131,10 @@ background-clip: text;
   align-items: center;
   padding: 10px;
   gap: 10px;
-  width: 187px;
   height: 60px;
-  left: calc(50% - 187px/2);
+  left: calc(50% - 187px / 2);
   top: 616px;
-  background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+  background: linear-gradient(90deg, #8456ec 3.25%, #e87bf8 100%);
   border-radius: 10px;
   margin: 10px auto;
   color: #fff;
