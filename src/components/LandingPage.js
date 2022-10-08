@@ -4,6 +4,7 @@ import {
 } from 'react-icons/fc';
 import { GrNext } from 'react-icons/gr';
 import { GiPartyPopper } from 'react-icons/gi';
+import { Link } from 'react-router-dom';
 import image1 from '../assets/food.png';
 
 const LandingPage = () => (
@@ -61,10 +62,12 @@ const LandingPage = () => (
           </div>
         </div>
 
-        <button type="submit" className="button">
-          <GiPartyPopper size={30} style={{ color: 'orange' }} />
-          Create my event
-        </button>
+        <Link to="/events">
+          <button type="submit" className="button">
+            <GiPartyPopper size={30} style={{ color: 'orange' }} />
+            Create my event
+          </button>
+        </Link>
       </div>
     </div>
   </>
