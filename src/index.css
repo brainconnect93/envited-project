@@ -143,6 +143,11 @@ span {
   border: 1px solid #fff;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 /* ==== LANDING PAGE STYLING ENDS ==== */
 
 /* ===== EVENT PAGE STYLING STARTS  ====  */
